@@ -30,8 +30,8 @@ export const PublicLayout: React.FC = () => {
           <div className="flex justify-between h-20 items-center">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-accent-blue/10 flex items-center justify-center flex-shrink-0">
-                <Bot className="w-6 h-6 text-accent-blue" />
+              <div className="w-10 h-10 rounded-xl overflow-hidden flex-shrink-0">
+                <img src="/logo.jpeg" alt="AI Agents Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-display font-bold text-xl tracking-tight text-primary">
                 AI Agents <span className="text-accent-blue">& Web</span>
@@ -174,8 +174,8 @@ export const PublicLayout: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg flex-shrink-0 bg-white/10 flex items-center justify-center">
-                <Bot className="w-5 h-5 text-white" />
+              <div className="w-8 h-8 rounded-lg flex-shrink-0 overflow-hidden">
+                <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-display font-bold text-lg tracking-tight text-white">
                 AI Agents & Web Solutions

@@ -41,8 +41,8 @@ export const DashboardLayout = ({ role }: { role: 'ADMIN' | 'CLIENT' }) => {
       <aside className="w-64 bg-white border-r border-gray-200 flex flex-col hidden md:flex shrink-0">
         <div className="h-20 flex items-center px-6 border-b border-gray-100 justify-between">
           <Link to="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 bg-primary text-white rounded-xl flex items-center justify-center shadow-sm">
-              <Bot size={18} />
+            <div className="w-8 h-8 rounded-xl overflow-hidden shadow-sm flex-shrink-0">
+              <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-display font-bold text-base tracking-tight text-primary">
               {role === 'ADMIN' ? 'Admin Portal' : 'Client Portal'}
@@ -114,8 +114,8 @@ export const DashboardLayout = ({ role }: { role: 'ADMIN' | 'CLIENT' }) => {
         {/* Mobile Header */}
         <header className="md:hidden h-16 bg-white border-b border-gray-200 flex items-center justify-between px-4 sticky top-0 z-30">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary text-white rounded-lg flex items-center justify-center">
-              <Bot size={18} />
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0">
+              <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-bold text-sm text-primary">
               {role === 'ADMIN' ? 'Admin' : 'Client Portal'}
