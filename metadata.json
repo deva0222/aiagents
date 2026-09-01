@@ -1,0 +1,6 @@
+{
+  "name": "AI Agents & Web Solutions",
+  "description": "Enterprise AI Agents, high-performance web development, mobile apps, and business automation platform with client portal and secure project request flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

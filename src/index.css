@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0A192F;
+  --color-primary-light: #112240;
+  --color-accent: #00F0FF;
+  --color-accent-blue: #0070F3;
+  --color-bg-light: #F8FAFC;
+  --color-bg-white: #FFFFFF;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#F8FAFC] text-slate-800 antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display text-primary tracking-tight;
+}
